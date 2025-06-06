@@ -1,4 +1,9 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import pytest
+
 from area import calcular_area
 
 def test_area_valida():
